@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 30px;
+    font-size: 16px;
+    font-family: 'roboto', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: none;
+}
+
+ul {
+    list-style: none;
+
+}
+
+.landing-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.left-page{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    
+}
+
+
+.landing-page .left-page .header {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.left-page .header h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+
+.header p {
+    font-size: 0.9rem;
+}
+
+
+.left-page form div {
+    margin-bottom: 15px;
+
+}
+
+
+
+form div label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+form div input {
+    width: 100%;
+    height: 40px;
+    outline: none;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.left-page p span {
+    font-weight: 600;
+    color: #000;
+}
+/*right-page*/
+
+.landing-page .right-page {  
+    color: #fff;
+    position: relative;
+    height: 600px;
+}
+
+.right-page .quote {
+    position: absolute;
+    width: 350px;
+    top: 350px;
+    left: 45px;
+    background-color: rgba(0,  0, 0, 0.3);
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    border: none;
+    padding: 10px;
+}
+
+.quote h4 {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.left-quote h4 {
+    font-size: 0.9rem;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.left-quote p {
+    font-weight: 200;
+    font-size: 0.8rem;
+}
+
+.right-quote ul {
+    position: absolute;
+    z-index: 5;
+    top: 90px;
+    left: 170px;
+
+}
+
+.right-quote .review li {
+    padding: 0px 5px;
+    float: left;  
+}
+
+.right-quote ul li i {
+    font-size: 0.8rem;
+ }
+
+ .arrow-circle li {
+    width: 30px;
+    text-align: center;
+    margin-top: 40px;
+    float: left;
+    margin-left: 20px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-left: 30px;
+ }
+
+
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+
+body {
+    background-color: #ccc;
+}
+
+
+.button-dark {
+    background-color: #000;
+    color: #fff;
+    font-size: 0.9rem;
+    display: block;
+    width: 100%;
+    padding: 8px 15px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    margin-top: 35px;
+}
+
+.button-light {
+    background-color: transparent;
+    color: #000;
+    font-size: 0.9rem;
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 8px 15px;
+    border-radius: 3px;
+    border: 1px solid #000;
+    margin-bottom: 30px;
+}
+
